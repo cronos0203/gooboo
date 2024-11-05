@@ -410,6 +410,29 @@ export default {
         activeIcon: 'mdi-pentagram',
         activeColor: 'red'
     },
+    redStaffPower: {
+        findZone: 30,
+        findChance: 1 / buildNum(100, 'K'),
+        price(lvl) {
+            return Math.pow(2, lvl - 1) * 2500;
+        },
+        stats(lvl) {
+            return [
+                { isPositive: true, type: 'base', name: 'hordeAttack', value: lvl * 30 + 27 },
+                { isPositive: true, type: 'base', name: 'hordeFirstStrike', value: lvl * 0.5 + 0.7 }
+            ];
+        },
+        active() {
+            return [
+                { type: 'permanentStat', stat: 'hordeAttack_mult', value: 10 }
+            ];
+        },
+        activeType: 'utility',
+        cooldown: () => 2700,
+        icon: 'mdi-magic-staff',
+        activeIcon: 'mdi-pentagram',
+        activeColor: 'red'
+    },
     brokenStopwatch: {
         findZone: 31,
         findChance: 1 / buildNum(25, 'K'),
