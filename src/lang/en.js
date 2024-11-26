@@ -1712,6 +1712,7 @@ export default {
       meatShield: 'Meat shield',
       wizardHat: 'Wizard hat',
       redStaff: 'Red staff',
+      redStaff_Power: 'Red staff Power',
       cleansingSpring: 'Cleansing spring',
       marblePillar: 'Marble pillar',
       rainbowStaff: 'Rainbow staff',
