@@ -33,6 +33,6 @@ export default new Vuetify({
     },
     lang: {
         locales: { en, de, zh },
-        current: "en"
+        current: "zh"
     }
 });
