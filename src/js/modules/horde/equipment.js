@@ -410,7 +410,7 @@ export default {
         activeIcon: 'mdi-pentagram',
         activeColor: 'red'
     },
-    redStaff_Power: {
+    redStaff_Ex: {
         findZone: 30,
         findChance: 1 / buildNum(100, 'K'),
         price(lvl) {
