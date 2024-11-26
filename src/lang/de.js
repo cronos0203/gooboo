@@ -1138,6 +1138,7 @@ export default {
       },
       lang: {
         name: 'Sprache',
+        zh: '简体中文',
         en: 'English',
         de: 'Deutsch'
       },
